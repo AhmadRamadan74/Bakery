@@ -1,0 +1,580 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Alegreya", sans-serif;
+}
+
+                                        /* General Classes */
+div img {
+    width: 100%;
+    display: block;
+}
+ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alegreya";
+}
+
+.container{
+    width: 90%;
+    margin:auto;
+    /* background-color: red; */
+}
+
+.clr{
+    clear: both;
+}
+                                        /* First Section */
+.header{
+    background-image: url('../images/drew-coffman-1872.jpg');
+    height: 100vh;
+    /* background-size: cover; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layout{
+    /* background-color: bisque; */
+    height: 100vh;
+    /* width: 90%; */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.logo{
+    float: left;
+}
+.links{ 
+    /* background-color: lightcoral; */
+    float: right;
+}
+
+.clr{
+    clear: both;
+}
+
+.logo img{
+    width: 48%;
+    margin-top: 24px;
+    margin-left: 100px;
+
+}
+
+.links ul li {
+    list-style-type: none;
+    float: left;
+    margin: 0px 25px;
+    padding-top: 40px;
+    font-size: 20px;
+
+}
+.links ul .bdr{
+    border-top: 2px solid #AE9768;
+
+}
+.links ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.content{
+    /* background: red; */
+    color: white;
+    text-align: center;
+    font-family: "Alegreya Sans";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.content .welcome {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.content h1{
+    font-size: 76px;
+    font-weight: 400;
+    margin-bottom: 18px; 
+}
+.content .welcome2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+
+.bg-gold{
+    background-color: #AE9768;
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bg-transparent{
+    background-color: #8e7754;
+    border-radius: 8px;
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.border-gold{
+    border-color: #AE9768;
+    border-radius: 5px;
+}
+
+.border-white{
+    border-color: white;
+    border-radius: 5px;
+}
+
+.text-white{
+    color: white;
+}
+
+.p{
+    padding: 15px 28px;
+}
+
+.p{
+    padding: 15px 28px;
+}
+
+button:active{
+    border-style: inset;
+}
+.bg-gold {
+     background-color: #8e7754;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.bg-gold:hover {
+    background-color: white;
+    color: #AE9768; 
+}
+
+.bg-transparent {
+    background-color: transparent;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+}
+
+.bg-transparent:hover {
+    background-color: white;
+    color: #AE9768;
+    border-color: #AE9768; 
+}
+
+.oval {
+    width: 60px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    position: relative;
+    top: 70%;
+    left: 48%;
+}
+
+                                        /* End Section */
+
+
+                                        /* Second Section  */
+
+
+
+
+.second-section{
+    padding-top: 90px;
+    padding-bottom: 80px;
+    margin-bottom: 20px;
+}
+.second-section .rightSection ul li img {
+    width: 45px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.second-section .rightSection ul li{
+    padding: 10px 0 ;
+}
+
+.leftSectoin{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.leftSectoin img{
+    width: 100%;
+    display: block;
+    padding-left: 80px;
+} 
+
+.second-section .rightSection ul li p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    margin-left: 10px; 
+}
+
+.rightSection {
+    width: 50%;
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.second-section .rightSection ul {
+    list-style: none;  
+    padding: 0; 
+    margin: 0;  
+}
+
+.rightSection p{
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    margin-bottom: 25px;
+}
+
+
+.second-section .rightSection h2{
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #303030;
+    line-height: 1.38em;
+}
+
+
+
+
+                                        /* End Section */
+
+
+                                        /* Third Section */
+.third-section{
+    padding: 50px 0 ;
+    background: #f8f8f8;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+
+.third-section .left-section{
+    width: 40%;
+    float: left;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    bottom: 0;
+}
+
+.third-section .left-section h2{
+    color:#303030;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.third-section .left-section p{
+    color:#686868;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+.third-section .left-section .firstP{
+    margin-bottom: 10px
+}
+
+
+
+.third-section .right-section{
+    width: 50%;
+    float: right;
+
+}
+
+
+.third-section .right-section img{
+    width: 100%;
+    display: block;
+}
+
+
+                                        /* End Section */
+
+
+
+                                        /* Fourth Section */
+
+
+
+.our-baking{
+    text-align: center;
+}
+
+.our-baking h3{
+    color: #303030;
+    font-family: 'Alegreya';
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.our-baking .learn{
+    color: #888888;
+    font-family: 'Alegreya Sans';
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.our-baking .items{
+    padding-left: 20px;
+    margin-bottom: 30px;
+    width: 30%;
+    display: inline-block;
+}
+
+.our-baking .items h4{
+    color: #303030;
+    font-family: 'Alegreya';
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.our-baking .items p{
+    color: #888888;
+    font-family: 'Alegreya Sans';
+    font-size: 17px;
+    font-weight: 400;
+    margin: 20px 0;
+    line-height: 1.86em;
+}
+
+.our-baking .items{
+    margin-bottom: 50px;
+}
+
+                                        /* End Fourth Section */
+
+                                        /* Fifth Section */
+.Fifth-section{
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+
+.left-contact-information{
+    width: 45%;
+    float: left;
+}
+
+.left-contact-information ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.left-contact-information ul li{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.left-contact-information ul li img{
+    width: 40px;
+    border: 1px solid #AE9768;
+    background-color: #8e7754;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.left-contact-information ul li p{
+    margin: 0 !important;
+}
+
+.Fifth-section .map{
+    width: 40%;
+    margin-right: 30px;
+    float: right;
+}
+
+.Fifth-section .left-contact-information h3{
+    color: #303030;
+    font-family: 'Alegreya';
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Fifth-section .left-contact-information p{
+    color: #686868;
+    font-family: 'Alegreya Sans';
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 20px;
+    line-height: 1.86em;
+}
+.center{
+    /* background-color: red; */
+    margin-left: 20px;
+}
+.map iframe{
+    width: 100%;
+}
+
+                                        /* End Section */
+
+
+                                        /* Footer */
+
+
+.footer {
+    background-color: #403d38;
+    padding: 20px 0;
+}
+
+.footer .footer-items-icn {
+    width: 25%;
+    float: left;
+    padding: 30px 20px;
+}
+
+.footer .footer-items-icn h4 {
+    color: #FFFFFF;
+    font-family: 'Alegreya';
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.footer .footer-items-icn p {
+    color: #969696;
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer .footer-items-icn ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .footer-items-icn ul li {
+    color: #969696;
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-items-icn ul li img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+
+.footer-items-icn-map{
+    background-image: url('../images/contact-details-map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer .before{
+    position: relative;
+}
+
+.before::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-image: url(../images/contact-details-map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    opacity: 0.1;
+}
+
+                                        /* End Footer */
+
+                                        /* Final  Section */
+
+
+.last-section {
+    background-color: #353330;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+.last-img {
+    margin-bottom: 20px;
+}
+
+.last-img img {
+    width: 400px;
+    position: absolute;
+    top: 9%;
+    left: 38%;
+}
+
+.copyright {
+    color: #969696;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+.lst-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.lst-icons img {
+    width: 50px;
+    border: 1px solid #353330;
+    background-color: #403D38;
+    border-radius: 50%;
+}
+
+.fac:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.google:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.linkid:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.twitter:hover{
+    cursor: pointer;
+    background-color: lightcyan;
+}
